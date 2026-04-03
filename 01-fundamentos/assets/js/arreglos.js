@@ -1,0 +1,30 @@
+
+
+// const arr = new Array(10); // No es muy común
+// const arr = [];
+// console.log(arr);
+
+let videojuegos = ['Mario 3', 'Megaman', 'Chrono Trigger'];
+console.log({videojuegos});
+
+console.log(videojuegos[0])
+
+let arregloCosas = [
+    true,
+    123,
+    'Andrés',
+    1 + 2,
+    function(){},
+    ()=>{},
+    {a: 1},
+    ['X', 'Megaman', 'Zero', 'Dr. Light', [
+        'Dr. Willy',
+        'Woodman'
+    ]]
+];
+
+// console.log({arregloCosas});
+// console.log(arregloCosas[0]);
+// console.log(arregloCosas[2]);
+// console.log(arregloCosas[7][3]);
+console.log(arregloCosas[7][4][1]);
