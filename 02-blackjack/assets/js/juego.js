@@ -36,3 +36,19 @@ const crearDeck = () => {
 crearDeck();
 
 
+// Esta función permite tomar una carta
+const pedirCarta = () => {
+
+    if (deck.length === 0) {
+        throw 'No hay cartas en el deck';
+    }
+
+    const carta = deck.pop();
+
+    console.log(deck);
+    console.log(carta); // la carta debe ser de la baraja 
+    return carta;
+}
+
+
+// pedirCarta();
