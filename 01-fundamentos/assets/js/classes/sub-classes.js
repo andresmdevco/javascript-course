@@ -1,12 +1,10 @@
-
-
 class Persona {
     
-    static _conteo = 0; // conteo de las instacias de la clase que se han inicializado
+    static _conteo = 0; 
     static get conteo() {
         return Persona._conteo + ' instancias';
     }
-    // método estático
+
     static mensaje() { 
         console.log(this.nombre); // undefined
         console.log('Hola a todos, soy un método estático');
@@ -46,30 +44,24 @@ class Persona {
 }
 
 
-const spiderman = new Persona('Peter Parker', 'Spiderman', 'Un gran poder conlleva una gran responsabilidad');
-const ironman = new Persona('Tony Stark', 'Ironman', 'Yo soy Ironman');
+class Heroe extends Persona {
 
-// console.log(ironman);
+    clan = 'sin clan';
 
-// spiderman.quienSoy();
-// ironman.quienSoy();
+    constructor(nombre, codigo, frase) {
 
-spiderman.miFrase();
-// ironman.miFrase();
+        super(nombre, codigo, frase);
+        this.clan = 'Avengers';
+    }
 
-spiderman.setComidaFavorita = 'El pay de cereza de la tía May';
-// spiderman.comida = 'Duende Verde';
+    quienSoy() {
+        console.log(`Soy ${this.nombre}, ${this.clan}`);
+        super.quienSoy();
+    }
+}
 
-// console.log(spiderman.getComidaFavorita);
 
-// console.log(spiderman);
-// Persona._conteo = 2;
-console.log('Conteo estático', Persona._conteo);
-console.log(Persona.conteo);
-Persona.mensaje();
-
-// Definir propiedades estáticas fuera de la clase
-Persona.propiedadExterna = 'Hola Mundo';
-
-console.log(Persona.propiedadExterna);
-console.log(Persona);
+const spiderman = new Heroe('Peter Parker', 'Spiderman', 'Un gran poder conlleva una gran responsabilidad');
+// const spiderman = new Heroe();
+console.log(spiderman);
+spiderman.quienSoy();
