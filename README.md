@@ -9,6 +9,25 @@ Ejercicios de fundamentos de JavaScript y un proyecto de Blackjack, organizados 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-4-7952B3?logo=bootstrap&logoColor=white)
 
+## Estructura del repositorio
+
+```
+javascript-course/
+├── README.md
+├── .gitignore
+├── 01-fundamentos/
+│   ├── index.html
+│   └── assets/js/
+│       ├── bases/
+│       ├── ciclos/
+│       └── classes/
+└── 02-blackjack/
+    ├── index.html
+    └── assets/
+        ├── cartas/
+        └── js/
+```
+
 ## Secciones
 
 ### 01 — Fundamentos
