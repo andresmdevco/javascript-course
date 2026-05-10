@@ -1,8 +1,7 @@
 # JavaScript-Curso
+Repositorio principal de ejercicios y proyectos desarrollados durante un curso de Javascript, que cubre desde los fundamentos del lenguaje hasta conceptos avanzados. Algunas secciones tienen su propio repositorio que se encuentran al final de este README.
 
-Ejercicios de fundamentos de JavaScript y un proyecto de Blackjack, organizados por secciones.
-
-## Tecnologías
+## 🛠 Tecnologías
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
