@@ -94,3 +94,16 @@ Juego de Blackjack contra la computadora construido con JavaScript vanilla y Boo
 - `juego.js` — lógica del juego
 - `juego-min.js` — versión minificada lista para producción
 - `underscore-min.js` — usado para barajar el deck con `_.shuffle()`
+
+## Repositorios relacionados
+
+Este repositorio es el principal del curso. Algunas secciones tienen su propio repositorio:
+
+| Repositorio | Descripción |
+|-------------|-------------|
+| [blackjack-game-vite](https://github.com/andresmdevco/blackjack-game-vite) | Juego de Blackjack contra la computadora con Vite |
+| [todo-app](https://github.com/andresmdevco/todo-app) | App de gestión de tareas con filtros y persistencia en localStorage |
+| [js-http-app](https://github.com/andresmdevco/js-http-app) | Consumo de la Rick and Morty API con Fetch |
+| [js-advanced-concepts](https://github.com/andresmdevco/js-advanced-concepts) | Callbacks, Promises, async/await y generadores |
+| [js-crud-app](https://github.com/andresmdevco/js-crud-app) | CRUD de usuarios con json-server |
+| [js-esnext](https://github.com/andresmdevco/js-esnext) | Métodos de arrays introducidos en ES2023 |
